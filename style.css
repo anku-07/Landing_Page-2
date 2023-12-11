@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Roboto+Slab:wght@900&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(189, 178, 180);
+    position: relative;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #000;
+    /* position: relative; */
+}
+#nav h5{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    margin: 0 8px;
+    border-radius: 60px;
+    font-weight: 500;
+}
+#center{
+    height:calc(100% - 100px);
+    width: 100%;
+    position: relative;
+    padding: 10px 20px;
+}
+#center h1{
+    font-size: 110px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 999;
+    left: 50%;
+    white-space: nowarp;
+    font-style: italic;
+    transform: translate(-50%,0);
+    font-weight: 900;
+}
+#center h2{
+    font-size: 110px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    -webkit-text-stroke-color: #000;
+    -webkit-text-stroke-width: 2px;
+    left: 49.4%;
+    top: 5px;
+    color: transparent;
+    white-space: nowarp;
+    font-style: italic;
+    transform: translate(-50%,0);
+    font-weight: 900;
+}
+#image{
+    position: absolute;
+    top: 60%;
+    height: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+#image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: bottom;
+}
+button{
+    padding: 17px 32px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 50%;
+    text-transform: capitalize;
+    background-color: rgb(152, 220, 152);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    position: absolute;
+    right: 15%;
+    top: 31%;
+    transform: rotate(-5deg);
+}
